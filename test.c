@@ -5,6 +5,7 @@ int main()
     char* a = "hello";
     char b[] = "hello";
     a = a+1;
+    printf("hello\n");
     printf("a = %s\n", a);
     printf("b = %s\n", b);
     return 0;
